@@ -73,7 +73,7 @@ Error generating stack: `+o.message+`
     border: 1px solid transparent;
     color: white;
   }
-`,cm=({toggle:e})=>F.jsxs(fm,{children:[F.jsx("div",{children:F.jsx("img",{src:"/images/dices.png"})}),F.jsxs("div",{className:"content",children:[F.jsx("h1",{children:"Dice Game"}),F.jsx(Qu,{onClick:e,children:"Play Now"})]})]}),fm=Pt.div`
+`,cm=({toggle:e})=>F.jsxs(fm,{children:[F.jsx("div",{children:F.jsx("img",{src:"./images/dices.png"})}),F.jsxs("div",{className:"content",children:[F.jsx("h1",{children:"Dice Game"}),F.jsx(Qu,{onClick:e,children:"Play Now"})]})]}),fm=Pt.div`
   max-width: 1180px;
   height: 100vh;
   display: flex;
@@ -123,7 +123,7 @@ Error generating stack: `+o.message+`
     font-size: 24px;
     font-weight: 500px;
   }
-`,ym=({roleDice:e,currentDice:t})=>F.jsxs(gm,{children:[F.jsx("div",{className:"dice",onClick:e,children:F.jsx("img",{src:`/images/dice/dice_${t}.png`,alt:"dice 1"})}),F.jsx("p",{children:"Click on Dice to roll"})]}),gm=Pt.div`
+`,ym=({roleDice:e,currentDice:t})=>F.jsxs(gm,{children:[F.jsx("div",{className:"dice",onClick:e,children:F.jsx("img",{src:`./images/dice/dice_${t}.png`,alt:"dice 1"})}),F.jsx("p",{children:"Click on Dice to roll"})]}),gm=Pt.div`
   margin-top: 48px;
   display: flex;
   flex-direction: column;
